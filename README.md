@@ -4,7 +4,6 @@ A working implementation of the Phase II capstone project: an agentic pipeline t
 
 ## What is actually implemented here
 
-Every module described as "in progress" in the mid semester report is completed in this codebase:
 
 1. Realistic synthetic sensor dataset across named road segments (Outer Ring Road, Western Express Highway, GST Road, and so on) with a physically motivated monsoon rainfall curve, ward level drainage quality, and domain weighted risk labels rather than random labels.
 2. A data quality agent that imputes missing sensor readings at the ward level and flags anomalous readings with an isolation forest.
