@@ -1,0 +1,20 @@
+{
+  "accuracy": 87.5,
+  "precision": 88.17,
+  "recall": 86.89,
+  "f1_score": 87.44,
+  "roc_auc": 0.9817,
+  "train_size": 3998,
+  "test_size": 1000,
+  "feature_importance": {
+    "road_age_years": 0.222,
+    "structural_fatigue_index": 0.1525,
+    "traffic_stress_index": 0.1343,
+    "traffic_density_vph": 0.1227,
+    "monsoon_intensity_index": 0.1106,
+    "rainfall_mm": 0.0969,
+    "humidity_percent": 0.0649,
+    "drainage_quality_score": 0.0593,
+    "vehicle_load_tons": 0.0368
+  }
+}

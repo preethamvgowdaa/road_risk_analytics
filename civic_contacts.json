@@ -1,0 +1,54 @@
+{
+  "Bangalore": {
+    "Marathahalli Ward": "engineer.marathahalli@blrcivic.gov.in",
+    "Electronic City Ward": "engineer.electronic.city@blrcivic.gov.in",
+    "Bannerghatta Ward": "engineer.bannerghatta@blrcivic.gov.in",
+    "Bellandur Ward": "engineer.bellandur@blrcivic.gov.in",
+    "HAL Ward": "engineer.hal@blrcivic.gov.in",
+    "Kengeri Ward": "engineer.kengeri@blrcivic.gov.in",
+    "Peenya Ward": "engineer.peenya@blrcivic.gov.in",
+    "Whitefield Ward": "engineer.whitefield@blrcivic.gov.in",
+    "default": "roads.blr@blrcivic.gov.in"
+  },
+  "Mumbai": {
+    "Andheri Ward": "engineer.andheri@mumcivic.gov.in",
+    "Chembur Ward": "engineer.chembur@mumcivic.gov.in",
+    "Malad Ward": "engineer.malad@mumcivic.gov.in",
+    "Vashi Ward": "engineer.vashi@mumcivic.gov.in",
+    "Ghatkopar Ward": "engineer.ghatkopar@mumcivic.gov.in",
+    "Bandra Ward": "engineer.bandra@mumcivic.gov.in",
+    "Thane Ward": "engineer.thane@mumcivic.gov.in",
+    "default": "roads.mum@mumcivic.gov.in"
+  },
+  "Delhi": {
+    "Dhaula Kuan Ward": "engineer.dhaula.kuan@delcivic.gov.in",
+    "Dwarka Ward": "engineer.dwarka@delcivic.gov.in",
+    "Nizamuddin Ward": "engineer.nizamuddin@delcivic.gov.in",
+    "Nangloi Ward": "engineer.nangloi@delcivic.gov.in",
+    "Azadpur Ward": "engineer.azadpur@delcivic.gov.in",
+    "Laxmi Nagar Ward": "engineer.laxmi.nagar@delcivic.gov.in",
+    "default": "roads.del@delcivic.gov.in"
+  },
+  "Chennai": {
+    "Sholinganallur Ward": "engineer.sholinganallur@checivic.gov.in",
+    "Tambaram Ward": "engineer.tambaram@checivic.gov.in",
+    "Teynampet Ward": "engineer.teynampet@checivic.gov.in",
+    "Neelankarai Ward": "engineer.neelankarai@checivic.gov.in",
+    "Koyambedu Ward": "engineer.koyambedu@checivic.gov.in",
+    "default": "roads.che@checivic.gov.in"
+  },
+  "Hyderabad": {
+    "Gachibowli Ward": "engineer.gachibowli@hydcivic.gov.in",
+    "Hussain Sagar Ward": "engineer.hussain.sagar@hydcivic.gov.in",
+    "Banjara Hills Ward": "engineer.banjara.hills@hydcivic.gov.in",
+    "Uppal Ward": "engineer.uppal@hydcivic.gov.in",
+    "default": "roads.hyd@hydcivic.gov.in"
+  },
+  "Pune": {
+    "Katraj Ward": "engineer.katraj@puncivic.gov.in",
+    "Bibwewadi Ward": "engineer.bibwewadi@puncivic.gov.in",
+    "Baner Ward": "engineer.baner@puncivic.gov.in",
+    "Vadgaon Sheri Ward": "engineer.vadgaon.sheri@puncivic.gov.in",
+    "default": "roads.pun@puncivic.gov.in"
+  }
+}
