@@ -1,16 +1,3 @@
-"""
-Machine learning risk classifier and the composite risk scoring engine.
-
-The design intentionally goes past a single classifier call. A municipal
-engineer reading a dashboard does not just want a class label, they want a
-0 to 100 severity number they can sort by and a plain reason for that
-number. RiskPredictionModel gives the class probabilities; CompositeRiskEngine
-blends those probabilities with the same domain weighted engineering terms
-used to build the training labels, then attributes the score to its top
-contributing factors so the report generator has something concrete to
-write about.
-"""
-
 import json
 import pickle
 from dataclasses import dataclass, field
