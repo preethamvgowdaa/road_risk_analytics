@@ -89,11 +89,27 @@ class RiskPredictionModel:
         return metrics
 
     def predict_proba(self, X: pd.DataFrame) -> pd.DataFrame:
+        """Return risk probabilities for each tier.
+
+        Args:
+            X: DataFrame containing feature columns defined in FEATURE_COLUMNS.
+
+        Returns:
+            DataFrame with probability columns for each risk tier (Low, Medium, High, Critical).
+        """
         X_scaled = self.scaler.transform(X[FEATURE_COLUMNS])
         probabilities = self.model.predict_proba(X_scaled)
         return pd.DataFrame(probabilities, columns=self.model.classes_, index=X.index)
 
     def predict(self, X: pd.DataFrame) -> np.ndarray:
+        """Predict risk tier labels for input samples.
+
+        Args:
+            X: DataFrame containing feature columns defined in FEATURE_COLUMNS.
+
+        Returns:
+            Array of predicted risk tier labels.
+        """
         X_scaled = self.scaler.transform(X[FEATURE_COLUMNS])
         return self.model.predict(X_scaled)
 
