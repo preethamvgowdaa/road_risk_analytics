@@ -114,12 +114,27 @@ class RiskPredictionModel:
         return self.model.predict(X_scaled)
 
     def save(self, model_path: str = MODEL_PATH, scaler_path: str = SCALER_PATH) -> None:
+        """Persist the trained model and scaler to disk.
+
+        Args:
+            model_path: Path to save the trained RandomForest model.
+            scaler_path: Path to save the fitted StandardScaler.
+        """
         with open(model_path, "wb") as f:
             pickle.dump(self.model, f)
         with open(scaler_path, "wb") as f:
             pickle.dump(self.scaler, f)
 
     def load(self, model_path: str = MODEL_PATH, scaler_path: str = SCALER_PATH) -> "RiskPredictionModel":
+        """Load a trained model and scaler from disk.
+
+        Args:
+            model_path: Path to the saved RandomForest model.
+            scaler_path: Path to the saved StandardScaler.
+
+        Returns:
+            Self with loaded model and scaler for method chaining.
+        """
         with open(model_path, "rb") as f:
             self.model = pickle.load(f)
         with open(scaler_path, "rb") as f:
