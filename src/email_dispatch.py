@@ -8,10 +8,7 @@ log entry. This matters because it means the full pipeline, including the
 can be demonstrated end to end in a review without anyone accidentally
 emailing a real inbox from a laptop.
 
-To send for real, set two environment variables before running the app:
-  SMTP_SENDER_EMAIL   the Gmail address the report is sent from
-  SMTP_APP_PASSWORD   a Gmail App Password (not the account password)
-and pass dry_run=False.
+
 """
 
 import json
