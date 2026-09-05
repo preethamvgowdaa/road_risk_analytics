@@ -1,4 +1,4 @@
-# Agentic Data Science: Automated Road Risk Analytics
+# Agentic Data Science: Automated Road Risk Analytics.
 
 A working implementation of the Phase II capstone project: an agentic pipeline that ingests road sensor data, cleans and scores it, predicts deterioration risk with a trained machine learning model, visualizes results on an interactive dashboard, and drafts and dispatches prioritized maintenance reports to civic engineers across six Indian cities (Bangalore, Mumbai, Delhi, Chennai, Hyderabad, Pune)
 
